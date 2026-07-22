@@ -29,7 +29,9 @@ nav {
   flex-wrap: wrap;
 }
 .logo {
-  width: 200px;
+  width: 110px;
+  height: auto;
+  margin: 0;
 }
 nav ul li {
   display: inline-block;
@@ -372,37 +374,37 @@ nav .fa-solid {
     margin-right: 20px;
   }
 
- .work{
+  .work {
     width: 100%;
     position: relative;
     overflow: hidden;
-}
+  }
 
-.work picture{
+  .work picture {
     display: block;
     width: 100%;
-}
+  }
 
-.work picture img{
+  .work picture img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: contain;
     border-radius: 10px;
-}
+  }
 
-.work:hover .layer{
+  .work:hover .layer {
     transform: translateY(100%);
-}
+  }
 
-.work.active .layer{
+  .work.active .layer {
     top: 0;
     bottom: 0;
     height: 100%;
     transform: translateY(0);
-}
+  }
 
- .layer{
+  .layer {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -412,7 +414,7 @@ nav .fa-solid {
     border-radius: 10px;
     overflow: hidden;
 
-    background: linear-gradient(rgba(0,0,0,.6), #ff004f);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
 
     display: flex;
     align-items: center;
@@ -423,26 +425,25 @@ nav .fa-solid {
     text-align: center;
 
     transform: translateY(100%);
-    transition: transform .5s ease;
-}
+    transition: transform 0.5s ease;
+  }
 
-    .layer h3{
-        font-size:18px;
-        margin-bottom:10px;
-    }
+  .layer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
 
-    .layer p{
-        font-size:12px;
-        line-height:18px;
-    }
+  .layer p {
+    font-size: 12px;
+    line-height: 18px;
+  }
 
-    .layer a{
-        width:45px;
-        height:45px;
-        line-height:45px;
-        font-size:16px;
-    }
-
+  .layer a {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+  }
 
   .contact-left,
   .contact-right {
